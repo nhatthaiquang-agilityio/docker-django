@@ -2,13 +2,12 @@
 Set up a Django application and development environment using Docker.
 
 # Requirements:
---------------
-+[Install Docker](https://docs.docker.com/engine/installation/)
++ [Install Docker](https://docs.docker.com/engine/installation/)
 + Ubuntu 14.04
 
 
 # Run command:
---------------
+
 + Build docker:
 	```
 	$cd docker-django
@@ -26,6 +25,5 @@ Set up a Django application and development environment using Docker.
 	```
 
 # Reference:
------------
 + [Django application into Docker container images](http://michal.karzynski.pl/blog/2015/04/19/packaging-django-applications-as-docker-container-images/)
 + [Getting started with Docker, Compose and Django](https://howchoo.com/g/y2y1mtkznda/getting-started-with-docker-compose-and-django)
