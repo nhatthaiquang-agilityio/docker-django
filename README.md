@@ -19,6 +19,12 @@ Set up a Django application and development environment using Docker.
 	$docker run --publish=8001:8000 nhatthai/myapp_django:latest
 	```
 
++ Running some Django management commands on the Docker host
+	```
+	$docker run --rm -i -t --entrypoint=/bin/bash nhatthai/myapp_django:latest
+	root@a94c8a5eed4a:/srv/myapp# ./manage.py createsuperuser
+	```
+
 + Check django app:
 	```
 	http://localhost:8001
